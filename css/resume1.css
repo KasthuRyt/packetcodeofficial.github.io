@@ -1,0 +1,108 @@
+*{
+    padding:0;
+    margin: 0;
+}
+#image1{
+    height: 590px;
+    width:320px;
+}
+
+body{
+    background-attachment: fixed;
+    background-color:rgb(110, 111, 112);
+}
+
+
+#collection{
+    padding-left: 1000px;
+    height: 35px;
+    padding-top: 5px;
+}
+
+.vl {
+    border-left: 6px solid green;
+    height: 200px;
+    margin-left: 200px;
+    
+  }
+
+  .v2 {
+    border-left: 6px solid green;
+    height: 50px;
+    margin-left: 200px;
+    
+  }
+
+  .dot {
+    height: 15px;
+    width: 15px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 195px;
+    
+  }
+
+  .dot1 {
+    height: 15px;
+    width: 15px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 195px;
+    margin-top: 15px;
+    
+  }
+
+
+  #student{
+      margin-left: 183px;
+      margin-top: 30px;
+      height: 40px;
+      background-color: #ffffff;
+
+  }
+
+  #language{
+    margin-left: 183px;
+    height: 40px;
+    background-color: #ffffff;
+
+  }
+
+  .dot3 {
+    height: 15px;
+    width: 15px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 195px;  
+  }
+
+  #star{
+      height: 20px;
+      width: 20px;
+      background-color: #ffffff;
+  }
+
+  #interest{
+    margin-left: 186px;
+    height: 35px;
+    background-color: #ffffff;
+
+  }
+
+  #icons{
+    height: 60px;
+    width: 60px;
+      padding: 10px;
+      margin-top: 10px;
+      background-color: #ffffff;
+  }
+
+  .con{
+  background-image: url("../images/blackbackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:#ffffff;
+}

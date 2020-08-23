@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: rgb(220, 221, 213);
+  font-size: 15px;
+  color:white;
+  height: 50px;
+  padding-left: 300px;
+  
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 50%;
+  height: 60%; /* only for demonstration, should be removed */
+  background-color:rgb(110, 111, 112);
+  
+}
+
+/* Style the list inside the menu */
+
+
+article {
+  float: left;
+  padding: 70px;
+  width: 50%;
+  margin-bottom: 20px;
+  background-color:rgb(110, 111, 112);
+  height: 200px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
